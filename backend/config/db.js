@@ -11,7 +11,7 @@ const pool = mysql.createPool({
   database: process.env.DB_NAME,
 });
 
-// ✅ Test DB Connection (Promise-based)
+
 async function testConnection() {
   try {
     const connection = await pool.getConnection();

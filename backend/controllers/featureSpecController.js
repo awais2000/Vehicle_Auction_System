@@ -204,7 +204,7 @@ export const deleteVehiclePrices = async(req, res) => {
 
 
 // Vehicle Specs Controller
-export const addVehicleSpecs = async (req, res) => {
+export const addVehicleSpecs = async (req, res) => { 
     try {
         const {
             vehicleId,
